@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Joe Puopolo - Audi Brand Specialist</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 24px;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", system-ui, sans-serif;
+      background: radial-gradient(circle at top, #f4f4f5, #e5e7eb);
+      color: #111827;
+    }
+    .card {
+      width: 100%;
+      max-width: 420px;
+      background: #ffffff;
+      border-radius: 24px;
+      box-shadow: 0 22px 55px rgba(15, 23, 42, 0.22);
+      padding: 26px 24px 22px;
+      text-align: center;
+    }
+    .avatar {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      margin: 0 auto 14px;
+      overflow: hidden;
+      border: 3px solid #e5e7eb;
+    }
+    .avatar img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .name {
+      font-size: 1.45rem;
+      font-weight: 700;
+      letter-spacing: 0.01em;
+      margin-bottom: 4px;
+    }
+    .title {
+      font-size: 0.96rem;
+      color: #6b7280;
+      margin-bottom: 2px;
+    }
+    .company {
+      font-size: 0.93rem;
+      color: #374151;
+      margin-bottom: 14px;
+    }
+    .location {
+      font-size: 0.8rem;
+      color: #9ca3af;
+      margin-bottom: 18px;
+    }
+    .buttons {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px;
+      margin-bottom: 14px;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 9px 10px;
+      font-size: 0.85rem;
+      border-radius: 999px;
+      border: 1px solid #e5e7eb;
+      background: #f9fafb;
+      color: #111827;
+      text-decoration: none;
+      transition: background 0.16s ease, transform 0.08s ease, box-shadow 0.12s ease;
+    }
+    .btn:hover {
+      background: #f3f4f6;
+      transform: translateY(-1px);
+      box-shadow: 0 10px 22px rgba(15,23,42,0.16);
+    }
+    .btn-primary {
+      grid-column: span 2;
+      background: #111827;
+      color: #f9fafb;
+      border-color: #111827;
+      font-weight: 600;
+    }
+    .btn-primary:hover {
+      background: #020617;
+    }
+    .footnote {
+      font-size: 0.74rem;
+      color: #9ca3af;
+      margin-top: 4px;
+    }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <div class="avatar">
+      <img src="joe_puopolo_headshot_web.jpg" alt="Joe Puopolo" />
+    </div>
+    <div class="name">Joe Puopolo</div>
+    <div class="title">Audi Brand Specialist</div>
+    <div class="company">Audi Downtown Toronto</div>
+    <div class="location">328 Bayview Ave · Toronto, ON M5A 3R7 · Canada</div>
+
+    <div class="buttons">
+      <a class="btn" href="tel:+14169303413">Call</a>
+      <a class="btn" href="mailto:jpuopolo@audidowntowntoronto.ca">Email</a>
+      <a class="btn" href="http://www.audidowntowntoronto.ca" target="_blank" rel="noopener noreferrer">Website</a>
+      <a class="btn" href="https://www.linkedin.com/in/joepuopolo" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a class="btn btn-primary" href="https://drive.google.com/file/d/1t3auS8DoLN1XzExrNLvwK7uPK5AcJ752/view?usp=share_link" target="_blank" rel="noopener noreferrer">Download Contact Card</a>
+    </div>
+
+    <div class="footnote">
+      Save Joe’s full contact with photo from this page.
+    </div>
+  </main>
+</body>
+</html>
